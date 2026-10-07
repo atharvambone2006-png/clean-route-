@@ -1,0 +1,35 @@
+{
+  "name": "cleanroute",
+  "version": "1.0.0",
+  "description": "Crowd-sourced litter reporting platform for community cleanup",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "litter",
+    "reporting",
+    "community",
+    "cleanup",
+    "platform"
+  ],
+  "author": "CleanRoute Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "multer": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
